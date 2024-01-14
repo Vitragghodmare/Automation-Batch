@@ -39,6 +39,8 @@ public class Base_Class {
 	//Dynamic code for Navigate URL
      public static void navigate(String url) {
     	driver.get(url);
+    	System.out.println("Navigate url is:-"+url);
+    	System.out.println("Title of web page is:-" +driver.getTitle());
      }
      
     	// Create Dynamic code of Screen Shot
